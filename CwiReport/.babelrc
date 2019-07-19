@@ -1,0 +1,18 @@
+{
+	"plugins": [
+		[
+			"module-resolver",
+			{
+				"root": [
+					"./src"
+				],
+				"alias": {
+					"@ui": "./src/ui",
+					"@services": "./src/services",
+					"@assets": "./src/assets",
+					"@components": "./src/assets/components"
+				}
+			}
+		]
+	]
+}
